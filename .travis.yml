@@ -14,7 +14,7 @@ deploy:
   target-branch: main
   skip-cleanup: true
   local-dir: docs/.vuepress/dist
-  repo: coffeeeeffoc/coffeeeeffoc.github.io
+  repo: coffeeeeffoc/blog.github.io
   github-token: $REPO_TOKEN
   keep-history: true
   on:
