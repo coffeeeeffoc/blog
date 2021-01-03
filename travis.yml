@@ -11,11 +11,11 @@ script:
   - npm run build
 deploy:
   provider: pages
-  target-branch: master
+  target-branch: main
   skip-cleanup: true
   local-dir: docs/.vuepress/dist
   repo: coffeeeeffoc/coffeeeeffoc.github.io
-  github-token: $REPO_TOKEN
+  github-token: 6a6a63dd83ef3347f449afa49d979eba8c165ea8
   keep-history: true
   on:
-    branch: master
+    branch: main
